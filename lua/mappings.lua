@@ -36,6 +36,9 @@ map("v", "<", "<gv^")
 map("n", "<", "<gv^")
 map("v", ">", ">gv^")
 map("n", ">", ">gv^")
+-- for navigate to buffer
+map("n", "L", "<cmd>bnext<cr>")
+map("n", "H", "<cmd>bprevious<cr>")
 
 local nomap = vim.keymap.del
 
